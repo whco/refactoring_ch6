@@ -14,10 +14,7 @@ public class Owing {
     void printOwing() {
         Enumeration e = _orders.elements();
         double outstanding = 0.0;
-        // print banner
-        System.out.println ("**************************");
-        System.out.println ("***** Customer Owes ******");
-        System.out.println ("**************************");
+        printBanner();
         // calculate outstanding
         while (e.hasMoreElements()) {
             Order each = (Order) e.nextElement();
@@ -29,7 +26,10 @@ public class Owing {
     }
 
     void printBanner() {
-
+        // print banner
+        System.out.println ("**************************");
+        System.out.println ("***** Customer Owes ******");
+        System.out.println ("**************************");
     }
     void printDetails(double outstanding) {
 
