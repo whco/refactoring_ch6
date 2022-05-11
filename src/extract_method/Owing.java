@@ -20,9 +20,7 @@ public class Owing {
             Order each = (Order) e.nextElement();
             outstanding += each.getAmount();
         }
-        //print details
-        System.out.println ("name:" + _name);
-        System.out.println ("amount" + outstanding);
+        printDetails(outstanding);
     }
 
     void printBanner() {
@@ -32,7 +30,9 @@ public class Owing {
         System.out.println ("**************************");
     }
     void printDetails(double outstanding) {
-
+        //print details
+        System.out.println ("name:" + _name);
+        System.out.println ("amount" + outstanding);
     }
 
     public static void main(String[] args) {
