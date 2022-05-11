@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e750d057-6277-4cbd-858a-27deec01c041" name="Changes" comment="Refactor_ch6 first commit : original classes added">
+    <list default="true" id="e750d057-6277-4cbd-858a-27deec01c041" name="Changes" comment="Refactoring with local variable, only read : also easy case, just pass by parameter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extract_method/Owing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extract_method/Owing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extract_method/OwingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extract_method/OwingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +101,30 @@
       <option name="presentableId" value="Default" />
       <updated>1652195363449</updated>
       <workItem from="1652195364730" duration="3409000" />
-      <workItem from="1652245185985" duration="2717000" />
+      <workItem from="1652245185985" duration="4360000" />
     </task>
+    <task id="LOCAL-00001" summary="OwingTest added">
+      <created>1652248137565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652248137565</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactoring without local variable : easy">
+      <created>1652248194780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652248194780</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactoring with local variable, only read : also easy case, just pass by parameter">
+      <created>1652248269928</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652248269928</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +143,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor_ch6 first commit : original classes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor_ch6 first commit : original classes added" />
+    <MESSAGE value="OwingTest added" />
+    <MESSAGE value="Refactoring without local variable : easy" />
+    <MESSAGE value="Refactoring with local variable, only read : also easy case, just pass by parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring with local variable, only read : also easy case, just pass by parameter" />
   </component>
 </project>

@@ -12,14 +12,10 @@ public class Owing {
     }
 
     void printOwing() {
-        Enumeration e = _orders.elements();
-        double outstanding = 0.0;
+        double outstanding = outstanding();
         printBanner();
         // calculate outstanding
-        while (e.hasMoreElements()) {
-            Order each = (Order) e.nextElement();
-            outstanding += each.getAmount();
-        }
+
         printDetails(outstanding);
     }
 
@@ -33,6 +29,16 @@ public class Owing {
         //print details
         System.out.println ("name:" + _name);
         System.out.println ("amount" + outstanding);
+    }
+
+    double outstanding() {
+        Enumeration e = _orders.elements();
+        double result = 0.0;
+        while (e.hasMoreElements()) {
+            Order each = (Order) e.nextElement();
+            result += each.getAmount();
+        }
+        return result;
     }
 
     public static void main(String[] args) {
