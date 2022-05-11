@@ -12,9 +12,8 @@ public class Owing {
     }
 
     void printOwing() {
-        double outstanding = outstanding();
+        double outstanding = getOutstanding();
         printBanner();
-        // calculate outstanding
 
         printDetails(outstanding);
     }
@@ -31,7 +30,8 @@ public class Owing {
         System.out.println ("amount" + outstanding);
     }
 
-    double outstanding() {
+    double getOutstanding() {
+        // calculate outstanding
         Enumeration e = _orders.elements();
         double result = 0.0;
         while (e.hasMoreElements()) {
